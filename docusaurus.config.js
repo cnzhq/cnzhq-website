@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '南中医非官方站',
-  tagline: '自信敬业',
+  title: '皇家太医院',
+  tagline: 'Academia Medica Sinica Imperii',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -83,7 +83,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: '南京中医药大学非官方站',
+        title: '皇家太医院',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -153,9 +153,9 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Swen.<p>
+        copyright: `Copyright © ${new Date().getFullYear()} 皇家太医院<br>
         本站的全部文字在<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
-        rel="noopener noreferrer">CC BY-SA 4.0</a>协议之条款下提供，附加条款亦可能应用。`,
+        rel="noopener noreferrer">CC BY-SA 4.0</a>协议之条款下提供，附加条款亦可能应用。<br>本站与南京中医药大学(Nanjing University of Chinese Medicine)无关。<br>本站不提供任何医学治疗方式，如有不适请咨询医师。`,
       },
       prism: {
         theme: prismThemes.github,

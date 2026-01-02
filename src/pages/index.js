@@ -16,6 +16,11 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        {/* --- 在这里添加你的文字 --- */}
+        <p style={{ fontSize: '1.8rem', margin: '1rem 0', fontWeight: 'bold' }}>
+          本站正在建设中<br />We are under construction
+        </p>
+        {/* ----------------------- */}
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"

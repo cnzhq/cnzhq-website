@@ -25,3 +25,12 @@
   --ifm-color-primary-lighter: #c7ddf2;
   --ifm-color-primary-lightest: #f5f9fd;
 }
+
+/* src/css/custom.css */
+
+/* 专门针对首页副标题（Tagline）的样式 */
+.hero__subtitle {
+  text-transform: uppercase; /* 强制视觉大写 */
+  letter-spacing: 0.03em;    /* 稍微增加字间距，让大写看起来更疏朗大气 */
+  font-size: 2rem;         /* 可选：如果你觉得变大写后文字太小，可以微调 */
+}

@@ -4,30 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '左侧条目',
+    title: '皇家太医院',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        这是最左边的内容。这个网页很好
+        皇家太医院是一个虚构的机构，她旨在维护和发展中国传统医药
       </>
     ),
   },
   {
-    title: '中间条目',
+    title: '中国中医药',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        中国中医药是古代中国流传下来的知识。要取其精华，去其糟粕，传承精华，守正创新。
       </>
     ),
   },
   {
-    title: '右侧条目',
+    title: '未来展望',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        右侧对对对
+        本站是个人和志愿者共同维护的中医药知识网站，不涉及具体诊断和治疗，如有不适，请咨询医师。
       </>
     ),
   },
