@@ -147,7 +147,8 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Swen.<p>
-        本站的全部文字在CC BY-SA 4.0协议之条款下提供，附加条款亦可能应用。`,
+        本站的全部文字在<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
+        rel="noopener noreferrer">CC BY-SA 4.0</a>协议之条款下提供，附加条款亦可能应用。`,
       },
       prism: {
         theme: prismThemes.github,
