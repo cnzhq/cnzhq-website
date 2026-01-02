@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Swen_web',
-  tagline: 'for_all_human',
+  title: '欢迎来到本站',
+  tagline: '为了全人类',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -107,33 +107,33 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '文档',
             items: [
               {
-                label: 'Tutorial',
+                label: '指南1',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '关于我们',
             items: [
               {
-                label: 'Stack Overflow',
+                label: '链接1',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'Discord',
+                label: '链接2',
                 href: 'https://discordapp.com/invite/docusaurus',
               },
               {
-                label: 'X',
+                label: '链接3',
                 href: 'https://x.com/docusaurus',
               },
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
               {
                 label: 'Blog',
@@ -146,7 +146,8 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Swen.<p>
+        本站的全部文字在CC BY-SA 4.0协议之条款下提供，附加条款亦可能应用。`,
       },
       prism: {
         theme: prismThemes.github,
