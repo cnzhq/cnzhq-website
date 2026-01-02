@@ -96,6 +96,13 @@ const config = {
             label: '指南1',
           },
           {to: '/blog', label: '博客', position: 'left'},
+
+{
+            to: '/time',      // 对应 src/pages/about.md 的文件名
+            label: 'UTC时间',  // 导航栏上显示的文字，您可以随意修改
+            position: 'left',  // 放左边
+          },
+
           {
             href: 'https://www.njucm.edu.cn',
             label: '南京中医药大学官网',
