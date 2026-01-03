@@ -75,9 +75,32 @@
   font-size: 1.3rem; /* 如果觉得字小了，可以把这个数字改成 1.4rem 或 1.5rem */
 }
 
-/* 拉丁译名样式 - 使用思源宋体 */
-.subtitle-font {
-  font-family: 'Noto Serif SC', 'Source Han Serif SC', serif;
-  font-weight: 300; /* 300(细) 或 400(常规)，看你喜欢 */
-  letter-spacing: 0.04em; /* 稍微增加字母间距，英文排版更显高级 */
+/* 3. 副标题：Academia Medica Sinica Imperii */
+.hero__subtitle {
+  /* 字体设置 */
+  font-family: 'Noto Serif SC', serif;
+  font-weight: 300;
+  text-transform: uppercase; /* 保持大写 */
+  
+  /* 约束 A: 字号始终是 0.6 倍的主标题 
+     使用 calc() 动态计算
+  */
+  font-size: calc(var(--hero-base-size) * 0.6);
+  line-height: 1;
+
+  /* 约束 B: 始终不换行 */
+  white-space: nowrap;
+  
+  /* 约束 C: 宽度不超过主标题的 1.5 倍 (通过缩窄实现)
+     解析：拉丁文默认较宽，为了在保持高度(0.6倍)的同时限制宽度，
+     我们需要横向压缩字体。scaleX(0.7) 相当于横向压缩 30%。
+  */
+  transform: scaleX(0.7); 
+  transform-origin: center top; /* 缩放后保持居中 */
+  
+  /* 视觉微调 */
+  opacity: 0.9;
+  margin-top: 10px; /* 拉开一点与主标题的距离 */
 }
+/* src/css/custom.css */
+
