@@ -14,7 +14,7 @@ function HomepageHeader() {
       <div className="container"> 
         {/* modification start: 标题部分 */}
         
-        {/* 1. 中文主标题：应用 .title-font (方正标雅宋) */}
+        {/* 1. 中文主标题：应用 .title-font (方正标语体) */}
         <h1 className={clsx('hero__title', 'title-font')}>
           皇家太医院
         </h1>

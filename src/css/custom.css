@@ -60,13 +60,19 @@
    3. 定义工具类 (供 React 组件调用)
    ========================================= */
 
-/* 中文标题样式 - 使用方正标语体 */
-.title-font {
+/* 中文标题样式 - 使用方正标语体  并对导航栏也使用该字体*/
+.title-font,
+.navbar__title { 
   font-family: 'FZBiaoYTFamily', serif;
-  /* 核心修改：强制设置为 normal (400) 甚至 lighter */
+  /* 强制字体粗细为 normal，防止浏览器自动加粗导致字体糊成一团 */
   font-weight: normal !important; 
-  /* 稍微增加一点字间距，也能在视觉上显得不那么拥挤 */
+  /* 统一增加一点字间距 */
   letter-spacing: 0.04em;
+}
+
+/* 额外微调：防止导航栏的字变得太小 */
+.navbar__title {
+  font-size: 1.3rem; /* 如果觉得字小了，可以把这个数字改成 1.4rem 或 1.5rem */
 }
 
 /* 拉丁译名样式 - 使用思源宋体 */

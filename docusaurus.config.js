@@ -105,7 +105,7 @@ const config = {
 
           {
             href: 'https://www.njucm.edu.cn',
-            label: '南京中医药大学官网',
+            label: '南京中医药大学',
             position: 'right',
           },
         ],
@@ -154,8 +154,12 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} 皇家太医院<br>
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">
+        <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg" alt="知识共享署名-相同方式共享" width="132" height="46.5" style="margin-top: 10px;" /></a><br>
         本站的全部文字在<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
-        rel="noopener noreferrer">CC BY-SA 4.0</a>协议之条款下提供，附加条款亦可能应用。<br>本站与南京中医药大学(Nanjing University of Chinese Medicine)无关。<br>本站不提供任何医学治疗方式，如有不适请咨询医师。`,
+        rel="noopener noreferrer">CC BY-SA 4.0</a>协议之条款下提供，附加条款亦可能应用。<br>
+        本站与南京中医药大学(Nanjing University of Chinese Medicine)无关。<br>
+        本站不提供任何医学治疗方式，如有不适请咨询医师。`,
       },
       prism: {
         theme: prismThemes.github,
